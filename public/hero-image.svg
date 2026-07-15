@@ -1,0 +1,24 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Profile demo image</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" rx="240" fill="url(#bg)" />
+  <circle cx="600" cy="520" r="320" fill="#ffffff" opacity="0.08" />
+  <circle cx="600" cy="560" r="260" fill="#ffffff" opacity="0.18" />
+  <circle cx="600" cy="520" r="220" fill="#ffffff" />
+  <circle cx="600" cy="520" r="120" fill="#4f46e5" />
+  <path d="M540 450c0-40 30-74 70-74s70 34 70 74v180c0 40-30 74-70 74s-70-34-70-74V450z" fill="#ffffff" opacity="0.95" />
+  <circle cx="600" cy="410" r="50" fill="#4f46e5" />
+  <path d="M380 820c0-120 160-190 220-190s220 70 220 190" stroke="#ffffff" stroke-width="60" fill="none" opacity="0.9" stroke-linecap="round" />
+  <rect x="640" y="240" width="240" height="80" rx="40" fill="#f8fafc" opacity="0.8" transform="rotate(25 760 280)" />
+  <rect x="220" y="760" width="240" height="80" rx="40" fill="#f8fafc" opacity="0.8" transform="rotate(-20 340 800)" />
+  <rect x="560" y="960" width="520" height="120" rx="60" fill="url(#shine)" opacity="0.65" />
+</svg>

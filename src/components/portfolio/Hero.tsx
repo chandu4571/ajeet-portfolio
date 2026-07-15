@@ -165,19 +165,12 @@ export function Hero() {
         >
           <div className="absolute inset-0 rounded-full bg-gradient-conic from-indigo-500 via-fuchsia-500 to-cyan-400 opacity-30 blur-3xl animate-pulse-glow" />
           <div className="absolute inset-6 rounded-full glass-strong overflow-hidden">
+            <img
+              src="/home.png"
+              alt="Profile"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/30 via-transparent to-cyan-400/30" />
-            <svg viewBox="0 0 200 200" className="absolute inset-0 h-full w-full">
-              <defs>
-                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#a5b4fc" />
-                  <stop offset="50%" stopColor="#67e8f9" />
-                  <stop offset="100%" stopColor="#f0abfc" />
-                </linearGradient>
-              </defs>
-              <text x="100" y="118" textAnchor="middle" fontSize="90" fontWeight="700" fill="url(#g1)" fontFamily="Geist, Inter, sans-serif">
-                A
-              </text>
-            </svg>
           </div>
           {/* floating chips */}
           {[
