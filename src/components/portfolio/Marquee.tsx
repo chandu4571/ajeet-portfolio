@@ -12,7 +12,7 @@ export function Marquee() {
   );
   return (
     <section aria-hidden className="relative overflow-hidden border-y border-white/5 py-10">
-      <div className="flex animate-marquee">
+      <div className="flex w-max flex-nowrap animate-marquee">
         {row}{row}
       </div>
     </section>
